@@ -31,9 +31,9 @@ export default function Home() {
         <div style={{width:"90%",margin:"auto" ,marginTop:"10px"}}>
             <h1>Browse by Destination</h1>
             <p>Explore perfect places by Destination</p>
-            <div style={{ textAlign: "right", marginTop: "20px",marginBottom:"30px" }}>
-                <button onClick={handlePrev} style={{ marginRight: "10px" }}><img style={{width:"7px"}} src="https://uxwing.com/wp-content/themes/uxwing/download/arrow-direction/arrow-thin-chevron-left-icon.png"></img></button>
-                <button onClick={handleNext}  ><img style={{width:"7px"}} src="https://uxwing.com/wp-content/themes/uxwing/download/arrow-direction/arrow-thin-chevron-right-icon.png"></img></button>
+           <div style={{ textAlign: "right", marginTop: "20px",marginBottom:"30px" }}>
+                <button onClick={handlePrev} style={{ marginRight: "1px",background:"none",border:"none" }}><img style={{width:"15px"}} src="https://cdn-icons-png.flaticon.com/512/860/860790.png"></img></button>
+                <button onClick={handleNext} style={{background:"none",border:"none"}}  ><img style={{width:"15px" }} src="https://www.svgrepo.com/show/27797/right-arrow.svg"></img></button>
             </div>
 
             <div style={{ width: "100%", height:"200px", margin: "auto", display: "grid", gridTemplateColumns:"repeat(4,1fr)" }}>
